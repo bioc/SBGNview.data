@@ -7,7 +7,7 @@ Description:
     3. ID mapping tables between gene IDs and SBGN-ML file glyph IDs.
     4. Percent of orthologs detected in other species of the genes in a pathway. Cutoffs of this percentage for defining if a pathway exists in another species.
     5. XML text of SBGN-ML files for all pre-collected pathways.
-Version: 1.5.1
+Version: 1.4.1
 Author:
     Xiaoxi Dong*, Kovidh Vegesna*, Weijun Luo
 Maintainer: Weijun Luo <luo_weijun@yahoo.com>
