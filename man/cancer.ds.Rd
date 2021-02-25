@@ -4,9 +4,11 @@
 \name{cancer.ds}
 \alias{cancer.ds}
 \title{A demo microarray dataset from a cancer study}
-\format{A SummarizedExperiment object.}
+\format{
+A SummarizedExperiment object.
+}
 \usage{
-cancer.ds
+data(cancer.ds)
 }
 \description{
 A demo microarray dataset from a cancer study

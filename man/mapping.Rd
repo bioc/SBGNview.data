@@ -5,13 +5,12 @@
 \alias{mapping}
 \alias{ENZYME_pathway.id}
 \alias{hsa_KO_ENTREZID}
-\alias{hsa_pathwayCommons_ENTREZID}
 \alias{mmu_KO_ENSEMBL}
 \alias{chebi_pathway.id}
 \alias{mmu_KO_ENTREZID}
-\alias{chebi_CompoundName}
-\alias{CompoundName_pathwayCommons}
-\alias{kegg.ligand_pathwayCommons}
+\alias{chebi_compound.name}
+\alias{compound.name_pathwayCommons}
+\alias{kegg_pathwayCommons}
 \alias{hsa_pathwayCommons_ENSEMBL}
 \alias{mmu_pathwayCommons_ENTREZID}
 \alias{KO_pathway.id}
@@ -21,44 +20,98 @@
 \alias{chebi_pathwayCommons}
 \alias{mmu_pathwayCommons_ENSEMBL}
 \alias{hsa_ENTREZID_pathwayCommons}
+\alias{chebi_kegg}
+\alias{chebi_metacyc.SBGN}
+\alias{compound.name_pathway.id}
+\alias{compound.name_kegg}
 \title{Mapping table between two types of IDs}
-\format{A matrix with two columns: the ID mapping between two types of IDs.}
+\format{
+A matrix/data.frame with two columns: the ID mapping between two types of IDs.
+
+An object of class \code{data.frame} with 16601 rows and 2 columns.
+
+An object of class \code{data.frame} with 10446 rows and 3 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 11016 rows and 2 columns.
+
+An object of class \code{data.frame} with 79911 rows and 2 columns.
+
+An object of class \code{data.frame} with 11105 rows and 3 columns.
+
+An object of class \code{data.frame} with 285207 rows and 2 columns.
+
+An object of class \code{data.frame} with 298727 rows and 2 columns.
+
+An object of class \code{data.frame} with 6448 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 383983 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 628413 rows and 2 columns.
+
+An object of class \code{data.frame} with 47719 rows and 2 columns.
+
+An object of class \code{data.frame} with 88148 rows and 2 columns.
+
+An object of class \code{data.frame} with 252730 rows and 2 columns.
+
+An object of class \code{data.frame} with 406940 rows and 3 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 60425 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 619656 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
+
+An object of class \code{data.frame} with 20692 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 60659 rows and 2 columns.
+
+An object of class \code{data.frame} with 571283 rows and 2 columns.
+
+An object of class \code{data.frame} with 61143 rows and 2 columns.
+}
 \usage{
-ENZYME_pathway.id
+data(ENZYME_pathway.id)
 
-hsa_KO_ENTREZID
+data(hsa_KO_ENTREZID)
 
-hsa_pathwayCommons_ENTREZID
+data(mmu_KO_ENSEMBL)
 
-mmu_KO_ENSEMBL
+data(chebi_pathway.id)
 
-chebi_pathway.id
+data(mmu_KO_ENTREZID)
 
-mmu_KO_ENTREZID
+data(chebi_compound.name)
 
-chebi_CompoundName
+data(compound.name_pathwayCommons)
 
-CompoundName_pathwayCommons
+data(kegg_pathwayCommons)
 
-kegg.ligand_pathwayCommons
+data(hsa_pathwayCommons_ENSEMBL)
 
-hsa_pathwayCommons_ENSEMBL
+data(mmu_pathwayCommons_ENTREZID)
 
-mmu_pathwayCommons_ENTREZID
+data(KO_pathway.id)
 
-KO_pathway.id
+data(KO_pathwayCommons)
 
-KO_pathwayCommons
+data(SYMBOL_pathway.id)
 
-SYMBOL_pathway.id
+data(pathwayCommons_SYMBOL)
 
-pathwayCommons_SYMBOL
+data(chebi_pathwayCommons)
 
-chebi_pathwayCommons
+data(mmu_pathwayCommons_ENSEMBL)
 
-mmu_pathwayCommons_ENSEMBL
+data(hsa_ENTREZID_pathwayCommons)
 
-hsa_ENTREZID_pathwayCommons
+data(chebi_kegg)
+
+data(chebi_metacyc.SBGN)
+
+data(compound.name_pathway.id)
+
+data(compound.name_kegg)
 }
 \description{
 Mapping table between two types of IDs
