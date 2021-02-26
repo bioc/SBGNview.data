@@ -1,5 +1,5 @@
 Package: SBGNview.data
-Title: Demo gene expression datasets for SBGNview package
+Title: Supporting datasets for SBGNview package
 Description: 
     This package contains:
     1. A microarray gene expression dataset from a human breast cancer study.
